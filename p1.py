@@ -3,7 +3,7 @@ import numpy as np
 
 
 
-faceCascade = cv2.CascadeClassifier('haarcascades/haarcascade_russian_plate_number.xml')
+faceCascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
 
 cap = cv2.VideoCapture('video.mp4')
 
